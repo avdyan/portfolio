@@ -150,7 +150,7 @@ body.dark-theme {
   width: 100px;
   height: 100px;
   background: linear-gradient(180deg, hsla(var(--hue), var(--sat), var(--lig), 1) 0%, hsla(var(--hue), var(--sat), var(--lig), 0.2) 100%);
-  border-radius: 50%;
+  border-radius: 20%;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
@@ -164,7 +164,7 @@ body.dark-theme {
   justify-self: center;
   width: 115px;
   height: 115px;
-  border-radius: 50%;
+  border-radius: 20%;
   display: grid;
   place-items: center;
   margin-bottom: 0.75rem;
@@ -301,7 +301,7 @@ body.dark-theme {
 
 /* Button scale */
 .button:hover {
-  transform: scale(1.3);
+  transform: scale(1.25);
   background-color: var(--first-color-alt);
 }
 

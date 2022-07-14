@@ -20,7 +20,7 @@
         background: linear-gradient(180deg,
                     hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
                     hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
-        border-radius: 50%;
+        border-radius: 20%;
         overflow: hidden;
         display: flex;
         align-items: flex-end;
@@ -31,7 +31,7 @@
         justify-self: center;
         width: 115px;
         height: 115px;
-        border-radius: 50%;
+        border-radius: 20%;
         display: grid;
         place-items: center;
         margin-bottom: .75rem;
