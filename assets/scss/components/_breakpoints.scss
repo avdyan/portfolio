@@ -24,11 +24,11 @@
 /* For medium devices */
 @media screen and (min-width: 576px){
     .projects__content{
-        grid-template-columns: 332px;
+        grid-template-columns: 400px;
         justify-content: center;
     }
     .filters__content{
-        width: 332px;
+        width: 400px;
         margin: 3rem auto;
     }
 }
@@ -41,6 +41,9 @@
     .skills__content{
         justify-content: center;
         column-gap: 3rem;
+    }
+    .repos__content{
+        grid-template-columns: 700px;
     }
 }
 

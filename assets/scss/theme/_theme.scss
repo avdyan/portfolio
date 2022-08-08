@@ -38,6 +38,14 @@ body.dark-theme{
     background-color: var(--container-color);
 }
 
+.dark-theme .repos__content li{
+    background-color: var(--body-color);
+
+    &:hover{
+        background-color: var(--container-color);
+    }
+}
+
 .dark-theme::-webkit-scrollbar{
     background-color: hsl(var(--hue), 8%, 16%);
 }

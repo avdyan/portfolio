@@ -25,6 +25,10 @@
     --body-color: hsl(var(--hue), 100%, 99%);
     --container-color: #fff;
 
+    /*Variables para los repositorios*/
+    --animate-duration: 3s;
+    --animate-delay: 0.5s;
+
     /*========== Font and typography ==========*/
     /*.5rem = 8px | 1rem = 16px ...*/
     --body-font: 'Poppins', sans-serif;
