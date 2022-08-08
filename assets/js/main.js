@@ -105,7 +105,7 @@ const displayRepos = function (repos) {
             <span class="repos__text">" ${repo.description} "</span> <br/><br/>
             <span class="repos__text">${devicons[repo.language]}</span> <br />
             <br />
-            <a href=${repo.html_url}>Ver Proyecto</a>`;
+            <a href="${repo.html_url}" target="_blank">Ver Proyecto</a>`;
         repoList.append(listItem);
     }
 };
