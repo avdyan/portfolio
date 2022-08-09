@@ -100,12 +100,12 @@ const displayRepos = function (repos) {
         let listItem = document.createElement('li');
         listItem.classList.add('repo');
         listItem.innerHTML = `
-            <img src="https://opengraph.githubassets.com/1/${username}/${repo.name}" alt="">
-            <h3 class="repos__title">${repo.name}</h3>
+            <a href="${repo.html_url}"><img src="https://opengraph.githubassets.com/1/${username}/${repo.name}"></a>
             <span class="repos__text">" ${repo.description} "</span> <br/><br/>
             <span class="repos__text">${devicons[repo.language]}</span> <br />
             <br />
-            <a href="${repo.html_url}" target="_blank">Ver Proyecto</a>`;
+            <a class="repos__button" href="${repo.html_url}" target="_blank">Ver Proyecto <i class="ri-arrow-right-up-line"></i></a> <br />
+            <br />`;
         repoList.append(listItem);
     }
 };

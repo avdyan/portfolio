@@ -14,21 +14,18 @@
   --sat: 70%;
   --lig: 65%;
   --first-color: hsl(var(--hue), var(--sat), var(--lig));
-  --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
+  --first-color-alt: hsl(var(--hue), var(--sat), 61%); /* -4% */
   --title-color: hsl(var(--hue), 12%, 15%);
   --text-color: hsl(var(--hue), 12%, 45%);
   --text-color-light: hsl(var(--hue), 8%, 75%);
   --text-color-lighten: hsl(var(--hue), 8%, 92%);
   --body-color: hsl(var(--hue), 100%, 99%);
   --container-color: #fff;
-  /*Variables para los repositorios*/
-  --animate-duration: 3s;
-  --animate-delay: 0.5s;
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
+  --h2-font-size: 1.7rem;
+  --h3-font-size: 1.1rem;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
@@ -447,6 +444,7 @@ body.dark-theme {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  height: auto;
 }
 .repos__content ul {
   list-style: none;
@@ -486,22 +484,22 @@ body.dark-theme {
   background-color: var(--body-color);
   box-shadow: 0 3px 6px var(--first-color), 0 3px 6px var(--first-color);
 }
-.repos__list li a {
+.repos__list li img {
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px var(--first-color);
+}
+.repos__button {
   padding: 10px 20px;
   background: var(--first-color);
   border-radius: 10px;
   border: 3px solid var(--title-color);
   color: hsl(var(--hue), 12%, 15%);
   font-weight: 600;
+  margin-bottom: 15px;
 }
-.repos__list li a:hover {
+.repos__button:hover {
   background: var(--first-color);
-  border: 1px solid var(--title-color);
-  transform: scale(1.3);
-}
-.repos__list p {
-  padding: 0em 0.5em;
-  margin: 0.5em 0;
+  padding: 15px 25px;
 }
 
 /* Hide and show projects & skills */
