@@ -89,10 +89,12 @@ img {
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  --title-color: hsl(var(--hue), 12%, 95%);
-  --text-color: hsl(var(--hue), 12%, 75%);
-  --body-color: hsl(var(--hue), 40%, 8%);
-  --container-color: hsl(var(--hue), 24%, 12%);
+  --first-color: #89b4fa;
+  --first-color-alt: #74c7ec;
+  --title-color: #cdd6f4;
+  --text-color: #cdd6f4;
+  --body-color: #1e1e2e;
+  --container-color: #313244;
 }
 
 /*========== 
@@ -103,7 +105,8 @@ body.dark-theme {
   background-color: var(--container-color);
 }
 .dark-theme .button__gray:hover {
-  background-color: hsl(var(--hue), 24%, 16%);
+  background-color: #89b4fa;
+  color: #11111b;
 }
 
 .dark-theme .filters__content {
@@ -233,7 +236,8 @@ body.dark-theme {
   column-gap: 0.5rem;
   position: relative;
   background-color: var(--first-color);
-  color: #fff;
+  color: #11111b;
+  font-style: italic;
   padding: 1.15rem 1.5rem;
   border-radius: 0.5rem;
   transition: 0.4s;
@@ -303,7 +307,7 @@ body.dark-theme {
 
 /* View shadow gradient */
 .button:hover::after {
-  opacity: 0.25;
+  opacity: 0.35;
 }
 
 /* Button scale */
@@ -486,20 +490,19 @@ body.dark-theme {
 }
 .repos__list li img {
   border-radius: 15px;
-  box-shadow: 1px 1px 10px var(--first-color);
+  box-shadow: 1px 1px 5px var(--first-color);
 }
 .repos__button {
   padding: 10px 20px;
   background: var(--first-color);
   border-radius: 10px;
   border: 3px solid var(--title-color);
-  color: hsl(var(--hue), 12%, 15%);
+  color: #11111b;
   font-weight: 600;
   margin-bottom: 15px;
 }
 .repos__button:hover {
-  background: var(--first-color);
-  padding: 15px 25px;
+  background: var(--first-color-alt);
 }
 
 /* Hide and show projects & skills */

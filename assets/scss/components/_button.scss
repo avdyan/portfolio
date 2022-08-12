@@ -5,7 +5,8 @@
     column-gap: .5rem;
     position: relative;
     background-color: var(--first-color);
-    color: #fff;
+    color: $crust;
+    font-style: italic;
     padding: 1.15rem 1.5rem;
     border-radius: .5rem;
     transition: .4s;
@@ -83,7 +84,7 @@
 
 /* View shadow gradient */
 .button:hover::after{
-    opacity: .25;
+    opacity: .35;
 }
 
 /* Button scale */

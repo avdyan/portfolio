@@ -1,4 +1,6 @@
 /*=============== THEME ===============*/
+@import 'mocha';
+
 .change-theme{
     position: absolute;
     top: 1.5rem;
@@ -15,10 +17,12 @@
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
-    --title-color: hsl(var(--hue), 12%, 95%);
-    --text-color: hsl(var(--hue), 12%, 75%);
-    --body-color: hsl(var(--hue), 40%, 8%);
-    --container-color: hsl(var(--hue), 24%, 12%);
+    --first-color: #{$blue};
+    --first-color-alt: #{$sapphire};
+    --title-color: #{$text};
+    --text-color: #{$text};
+    --body-color: #{$base};
+    --container-color: #{$surface0};
 }
 
 /*========== 
@@ -30,7 +34,8 @@ body.dark-theme{
     background-color: var(--container-color);
 
     &:hover{
-        background-color: hsl(var(--hue), 24%, 16%);
+        background-color: $blue;
+        color: $crust;
     }
 }
 
