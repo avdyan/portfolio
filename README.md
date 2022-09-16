@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/65948476/184596703-fdac6419-ed4a-4fd8-b2d3-1f35854d563e.png" width="500px" alt="logo">
+  <!-- <img src="https://user-images.githubusercontent.com/65948476/184596703-fdac6419-ed4a-4fd8-b2d3-1f35854d563e.png" width="500px" alt="logo"> -->
   <h1>Mini Portfolio Responsivo</h1>
   <p>Diseña tu futuro.</p>
   <h6>  ·
