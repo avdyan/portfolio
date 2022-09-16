@@ -12,7 +12,7 @@
 - Portfolio hecho usando HTML, CSS y Javascript.
 - Contiene animaciones con css.
 - Incluye un modo claro y oscuro.
-- Desarrollado con la metodología "Mobile First", luego para escritorio.
+- Desarrollado con la metodología **`Mobile First`**, luego para escritorio.
 - Compatible con todos los dispositivos móviles y con una interfaz de usuario hermosa y agradable.
 
 ## :question: <samp>¿Cómo Usarlo?</samp>
@@ -27,7 +27,7 @@ git clone https://github.com/andres04u/portfolio.git
 
 O solamente descarga este repositorio como ``ZIP`` [aquí](https://github.com/andres04u/portfolio/archive/refs/heads/main.zip)
 
-## <samp>¿Ahora?</samp>
+## :question: <samp>¿Ahora?</samp>
 
 - Abre ``index.html`` con tu editor favorito. (Te recomiendo usar [VS Code](https://code.visualstudio.com))
 - Busca ``EDITAR`` y reemplaza todo los campos que tengar la palabra EDITAR, tambien busca ``OPCIONAL`` si quieres algunos ajustes más.
