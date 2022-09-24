@@ -37,7 +37,7 @@ O solamente descarga este repositorio como ``ZIP`` [aquí](https://github.com/an
 - Guarda todo los cambios y sube la carpeta a un repositorio de Github y activa Github Pages en las configuraciones.
 - Listo, ahora compartelo con tus colegas.
 
-Si necesitas pasos más detallados sigue este [`tutorial`](https://cachecuantico.com)
+Si necesitas pasos más detallados sigue este [`tutorial`](https://www.cachecuantico.com/2022/09/crear-un-portfolio-web.html)
 
 ## :two_hearts: **Gracias a**
 
