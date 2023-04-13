@@ -67,7 +67,7 @@ sr.reveal(`.filters`, {delay: 1000})
 
 // Script para obtener y mostrar todos los repositorios de github
 
-const username = 'andres04u'; // EDITAR - Cambialo por tu nombre de usuario de Github.
+const username = 'avdyan'; // EDITAR - Cambialo por tu nombre de usuario de Github.
 const maxPages = 1;
 const repoList = document.querySelector('.repos__list');
 const reposSection = document.querySelector('.repos');
