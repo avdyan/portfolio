@@ -20,12 +20,12 @@
 Copia esto en tu **Terminal**
 	
 ```sh
-git clone https://github.com/andres04u/portfolio.git
+git clone https://github.com/avdyan/portfolio.git
 ```
 
 > **Nota**: Necesitas tener ``git`` instalado en tu sistema.
 
-O solamente descarga este repositorio como ``ZIP`` [aquí](https://github.com/andres04u/portfolio/archive/refs/heads/main.zip)
+O solamente descarga este repositorio como ``ZIP`` [aquí](https://github.com/avdyan/portfolio/archive/refs/heads/main.zip)
 
 ## :question: <samp>¿Ahora?</samp>
 
